@@ -11,7 +11,8 @@ body {
     gap: 3rem;
 }
 
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
@@ -139,12 +140,14 @@ h2 {
     color: #f9faf8;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 
 }
 
-.call-to-action .text {
+.call-to-action .text,
+.footer .text {
     color: #e5e7eb;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 1.1rem;
 }
 
@@ -152,3 +155,7 @@ h2 {
     border: solid #f9faf8;    
 }
 
+.footer {
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
