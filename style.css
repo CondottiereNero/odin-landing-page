@@ -66,14 +66,14 @@ h1 {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 2rem;
     font-size: 1.1rem;
     border: 0;
     border-radius: 0.5rem;
 }
 
 .placeholder {
-    background-color: #e5e7eb8a;
+    background-color: #8d8f92;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,5 +128,27 @@ h2 {
     font: normal bold 1.3rem roboto;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    gap: 5rem;
+    border-radius: 0.5rem;
+    width: 50%;
+    align-self: center;
+    padding: 2rem 7rem;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.call-to-action .text {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.call-to-action button {
+    border: solid #f9faf8;    
+}
 
